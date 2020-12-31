@@ -1,11 +1,4 @@
-
-########################################################################################
-#
-#  This code is used to benchmark, then optimize your Hive queries & environment
-#
-#  NOTE: Please change "yourTableName" to make the Hive table you are testing against.
-#
-########################################################################################
+Generic Optimization - Venkyg
 
 # Get info on your table:
 describe formatted yourTableName;
@@ -53,4 +46,4 @@ select count(*) from yourTableName;
 # Output Explain plan:
 explain select count(*) from yourTableName;
 
-#ZEND
+#VENKYG
