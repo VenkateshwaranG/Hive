@@ -10,9 +10,9 @@ pip install thrift_sasl
 
 from pyhive import hive
 
-outputfile = open('/Users/dzaratsian/Desktop/hive_metadata.txt','wb')
+outputfile = open('/Users/Venkyg/Desktop/hive_metadata.txt','wb')
 
-c = hive.connect('dzaratsian1.field.hortonworks.com').cursor()
+c = hive.connect('Venkyg.field.hortonworks.com').cursor()
 c.execute('show databases')
 databases = c.fetchall()
 
